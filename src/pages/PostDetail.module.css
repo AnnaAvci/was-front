@@ -5,11 +5,15 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
-body{
-    width: 100%;
-    height:100vh;
+.postDetail{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:90%;
+     margin:2%;
 }
+
 h1{
     text-align: center;
     padding: 2em;
@@ -18,8 +22,7 @@ h1{
     display: flex;
     flex-direction: row;
     gap: 20px;
-    margin: 2%;
-    width: 90%;
+   
 }
 
 .postImg{
@@ -28,9 +31,11 @@ h1{
     justify-content: center;
     width: 20em;
     height:20em;
+    border-radius: 15px;
 }
-.basic-post-info{
-    font-size: 1.5em;
+.basicPostInfo{
+    margin-top: 2em;
+    font-size: 1em;
     font-weight: bold;
 }
 .userPicture{

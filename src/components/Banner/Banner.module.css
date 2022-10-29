@@ -31,7 +31,7 @@
     align-items: center;
     flex-direction: column;
 }
-.content h2
+.content h1
 {
     position: relative;
     color: #fff;
@@ -46,7 +46,30 @@
     padding: 20px 40px;
     text-decoration: none;
     font-size: 1.1em;
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-bottom: 25px;
     letter-spacing: 2px;
     border-radius: 10px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: center;
+    gap:20px
+}
+
+@media (max-width: 991px) {
+ .banner{
+    display:flex;
+    flex-direction: column;
+ }
+ .content{
+    display:flex;
+    flex-direction: column;
+ }
+ .mainTitle{
+    font-size: 1em;
+ }
 }

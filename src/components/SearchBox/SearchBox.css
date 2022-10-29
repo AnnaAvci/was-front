@@ -1,9 +1,9 @@
 .searchBox
 {
     position: absolute;
-    bottom: 0;
+    bottom: 15%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     background: #fff;
@@ -32,6 +32,7 @@
     width: 100%;
     min-width: 150px;
     font-size: 1.1em;
+    border-radius: 10px;
 }
 .searchBox .inputBx input[type="Submit"]
 {
@@ -42,4 +43,14 @@
     color: #fff;
     letter-spacing: 2px;
     padding: 10px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 991px) {
+ .searchBox{
+    display: flex;
+    flex-direction:column;
+    width:100%;
+ }
 }

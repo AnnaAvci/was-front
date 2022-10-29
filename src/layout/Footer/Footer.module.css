@@ -1,0 +1,20 @@
+#footer{
+    /* height:4em; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position:fixed;
+    bottom: 0;
+    width:100%;
+    box-shadow: -1px -4px 12px 5px rgba(0,0,0,0.07);
+    background-color: #fff;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    color: #ff5a26;
+}

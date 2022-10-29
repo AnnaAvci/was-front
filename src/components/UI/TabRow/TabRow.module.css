@@ -1,0 +1,6 @@
+.tabRow{
+    margin-top:2em;
+    height: 5em;
+    border-radius: 10px;
+    box-shadow:5px 10px 15px -9px rgba(0,0,0,0.57);
+}

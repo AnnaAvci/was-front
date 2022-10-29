@@ -142,6 +142,7 @@
     color: #fff;
     font-size: 1em;
     transition: 0.5s;
+    border-radius: 10px;
 }
 .inputBox span
 {
@@ -189,6 +190,7 @@ input[type="submit"]
     cursor: pointer;
     border: none;
     background: #ff5a26;
+    border-radius: 10px;
 }
 
 @media (max-width: 991px)

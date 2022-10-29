@@ -1,0 +1,23 @@
+.comment {
+    display:flex;
+    flex-direction: column;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow:5px 10px 15px -9px rgba(0,0,0,0.57);
+    width: 60%;
+    margin: 1em;
+}
+
+.userPic{
+    height: 3em;
+    width: 3em;
+    border-radius: 25px;
+}
+
+.commenterInfo{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    gap: 10px;
+}
+
