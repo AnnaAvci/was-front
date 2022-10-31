@@ -34,7 +34,6 @@ const MyProfile = () => {
       }
     ];
 
-   
     return (
       <div className={classes.myProfile}>
         <h1>My Photoshoots:</h1>

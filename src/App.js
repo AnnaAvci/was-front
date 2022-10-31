@@ -4,7 +4,7 @@ import HomePage from "./pages/HomePage";
 import {Switch, Route} from "react-router-dom";
 import LocationPage from "./pages/LocationPage";
 import ServicePage from "./pages/ServicePage";
-import ConnectionPage from "./pages/ConnectionPage";
+import ConnectionPage from "./pages/Connection/ConnectionPage";
 import RegistrationPage from "./pages/RegistrationPage";
 import ContactPage from "./pages/ContactPage";
 import Footer from "./layout/Footer/Footer";

@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.signIn
+{
+    position: relative;
+    background: #fee648;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+}
+.main-content
+{
+    position: relative;
+    width: 100vw;
+    height: 89vh;
+    background: #fff;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.user
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.imgBx
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #ff0;
+    transition: 0.5s;
+}
+.imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.formBx
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    transition: 0.5s;
+}
+.formBx form h2
+{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/*----   SIGN IN  ------*/
+.formBx
+{
+    left: 0;
+}
+.main-content.active .signInBx .formBx
+{
+    left: 100%;
+}
+.signIn .main-content .signInBx .imgBx
+{
+    left: 0;
+}
+.signIn .main-content.active .signInBx .imgBx
+{
+    left: -100%;
+}
+
+/*----   INPUTS  ------*/
+.inputBox
+{
+    position: relative;
+    width: 400px;
+    margin: 1em 0;
+}
+.inputBox input
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.25);
+    border-radius: 5px;
+    outline: none;
+    color: #000;
+    font-size: 1em;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.inputBox span
+{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: rgba(0,0,0,0.25);
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span
+{
+    color: #1d2b3a;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    background: #00dfc4;
+    border-left: 1px solid #00dfc4;
+    border-right: 1px solid #00dfc4;
+    letter-spacing: 0.2em;
+}
+.inputBox:nth-child(2) input:valid ~ span,
+.inputBox:nth-child(2) input:focus ~ span
+{
+    /*background: #00dfc4;*/
+    color: #1d2b3a;
+    border-radius: 2px;
+}
+.inputBox input:valid,
+.inputBox input:focus
+{
+    border: 1px solid #00dfc4;
+}
+
+input[type="submit"]
+{
+    width: 100%;
+    font-size: 1.2em;
+    color: #fff;
+    padding: 0.5em;
+    margin: 0 0 1em 0;
+    cursor: pointer;
+    border: none;
+    background: #ff5a26;
+    border-radius: 10px;
+}
+@media (max-width: 991px) {
+    section .main-content{
+        max-width: 100%;
+    }
+    section .main-content .imgBx{
+        display: none;
+    }
+    section .main-content .user .formBx{
+        width: 100%;
+    }
+}
