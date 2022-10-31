@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.messageMenu{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-around;
+}
+
+.btn{
+    margin-top: 0.5em;
+    border-radius: 10px;
+    background-color: #ff5a26;
+    color: white;
+    padding: 0.75em;
+    border: none;
+    font-size: 1em;
+}
+
+.messages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

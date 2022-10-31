@@ -1,0 +1,29 @@
+.table{
+    width: 80%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.tr{
+    margin-top:2em;
+    height: 5em;
+    border-radius: 10px;
+    box-shadow:5px 10px 15px -9px rgba(0,0,0,0.57);
+}
+
+.cardBox{
+    margin:0;
+}
+
+h1{
+    margin:0;
+    padding: 0;
+}
+
+.profileReservations{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
